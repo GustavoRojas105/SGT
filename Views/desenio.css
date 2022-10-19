@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-image:url("tacosFondo.jpg");
+  background-position: 150px,20px;
+}
+.sidebar {
+  position: fixed;
+  background: #57bd53;
+  ;
+  width: 230px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border: black;
+  border-style: solid;
+}
+
+.sidebar ul h2 {
+  color: #0f0f0f;
+}
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li button {
+  background-color: #f8ba2b;
+  font-weight: 1000;
+  /* border: none; */
+  /* color: #010101; */
+  width: 230px;
+  height: 300%;
+  line-height: 300%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sidebar ul li button:hover {
+  background-color: #9ba747;
+  color: rgb(255, 255, 255);
+}
+
+.contenido {
+  color: #281d2d;
+  display: flexbox;
+  margin-left: 236px;
+  background-color: #ffffff;
+  height: 100%;
+}   
+
+#portada {
+  margin-top: 20%;
+   background-color: rgb(135, 241, 144); 
+}
+#titulos {
+  color: #a5da58;
+  background-color: #57bd53;
+  border: black;
+  border-style: solid;
+}
